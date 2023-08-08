@@ -1,0 +1,30 @@
+node_modules/
+error_log
+access.log
+error.log
+.env
+
+#----------------------------------------------------------------------------
+# MISC
+#----------------------------------------------------------------------------
+.*cache
+*.log
+*.maintenance
+cache/*
+backup
+_files
+.monitor
+Forwardfile
+
+# OS X Files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.lnk
+*~
+
+# IDE FILES
+*.sublime-*
+*.tmproj
+

@@ -1,0 +1,16 @@
+{
+  "name": "datatables",
+  "version": "1.0.0",
+  "description": "datatables npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node node_modules/pdfmake/build-vfs.js \"./fonts\" \"./build/vfs_fonts.js\" ",
+    "build:vfs": "node node_modules/pdfmake/build-vfs.js \"./fonts\" \"./build/vfs_fonts.js\" "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pdfmake": "^0.2.7"
+  }
+}
